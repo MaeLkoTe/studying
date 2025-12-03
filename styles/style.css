@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+/* Modern minimal reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/*End of reset */
+
+.montserat_font {
+  font-family: "Montserrat", sans-serif;
+}
+
+.nunito_font {
+  font-family: "Nunito", sans-serif
+}
+
+.font_h1_sets {
+  font-weight: 900;
+  font-size: 54px;
+}
+
+.font_h2_sets{
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.font_title_sets{
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.font_subtitle_sets {
+  font-weight: SemiBold;
+  font-size: 20px;
+}
+
+.font_price_sets {
+  font-weight: SemiBold;
+  font-size: 20px;
+}
+
+.font_button_sets {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.aquamarin_color {
+  color: #415167;
+}
+
+.beige_color {
+  color: #C7A17A;
+}
+
+.dedicated_text {
+  color: white;
+  background-color: #C7A17A;
+}
+
+.hover-lift:hover {
+  transform: translateY(-2px);
+  transition: transform 0.2s ease;
+}
+
+.hover-grow:hover {
+  transform: scale(1.02);
+  transition: transform 0.2s ease;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: box-shadow 0.3s ease;
+}
+
+.rounded {
+  border-radius: 8px;
+}
+
+.invisible_border {
+  border-width: 0px;
+}

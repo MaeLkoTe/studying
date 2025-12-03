@@ -3,5 +3,5 @@
 ## Used Technology
 * HTML5
 ## Contact me 
-* [Telegram](https://tg.com).
+* [Telegram](https://telegram.me/rtumirea_official).
 * [Vk](https://vk.ru)
